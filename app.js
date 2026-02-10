@@ -8,7 +8,7 @@ require("dotenv").config();
 
 app.use(express.json());
 
-app.use('/api/v1/', productsRoute);
+app.use('/api/v1/products', productsRoute);
 
 app.use(notFound);
 
